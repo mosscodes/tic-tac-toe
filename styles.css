@@ -1,0 +1,39 @@
+#title {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+#game-board-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: center;
+}
+
+.grid-div {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+}
+
+#grid-div-1, #grid-div-2, #grid-div-3 {
+    border-bottom: solid black 5px;
+}
+
+#grid-div-1, #grid-div-4, #grid-div-7 {
+    border-right: solid black 5px;
+}
+
+#grid-div-3, #grid-div-6, #grid-div-9 {
+    border-left: solid black 5px;
+}
+
+#grid-div-7, #grid-div-8, #grid-div-9 {
+    border-top: solid black 5px;
+}
+
+
+
+
+
